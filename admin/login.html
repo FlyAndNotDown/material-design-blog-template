@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>登录-Admin</title>
+
+    <!--Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Materialize-->
+    <link href="../lib/materialize/css/materialize.min.css" rel="stylesheet" media="screen,projection">
+
+    <!--Admin Login CSS-->
+    <link href="../css/admin/login.css" rel="stylesheet">
+</head>
+<body>
+    <!--导航栏-->
+    <nav class="cyan">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Admin Access</a>
+        </div>
+    </nav>
+
+    <!--主容器-->
+    <div class="section teal lighten-5 admin-login-container">
+        <div class="row">
+            <div class="container">
+                <div class="row show-on-medium-and-up hide-on-small-only">
+                    <br><br><br><br><br><br>
+                </div>
+                <div class="row show-on-small hide-on-med-and-up">
+                    <br><br><br><br><br>
+                </div>
+                <div class="row admin-login-row">
+                    <div class="col s8 m6 l6 xl6 offset-s2 offset-m3 offset-l3 offset-xl3">
+                        <div class="input-field">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="username" type="text" class="validate" name="username">
+                            <label for="username">Username</label>
+                        </div>
+
+                        <div class="input-field">
+                            <i class="material-icons prefix">vpn_key</i>
+                            <input id="password" type="password" class="validate" name="password">
+                            <label for="password">Password</label>
+                        </div>
+
+                        <div class="input-field center">
+                            <br>
+                            <a class="waves-effect waves-light btn cyan lighten-3" id="login-btn">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--jQuery-->
+    <script src="../lib/jQuery/jquery-3.2.1.min.js"></script>
+
+    <!--Materialize-->
+    <script src="../lib/materialize/js/materialize.min.js"></script>
+
+    <!--Admin Login JS-->
+    <script src="../js/admin/login.js"></script>
+</body>
+</html>
