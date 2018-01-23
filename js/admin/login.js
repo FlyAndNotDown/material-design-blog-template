@@ -4,9 +4,9 @@ $(document).ready(function () {
         $.ajax({
             url: "",    //TODO
             async: true,
-            data: "username=" + $('#username').val() + "&password=" + $('#password').val()
+            data: "username=" + $('#username').val() + "&password=" + $('#password').val(),
             dataType: 'json',
-            success: function (data) {
+            success: function(data) {
                 //TODO
             }
         })
