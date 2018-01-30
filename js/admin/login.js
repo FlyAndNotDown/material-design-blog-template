@@ -1,6 +1,6 @@
 $(document).ready(function () {
     // 登录事件
-    $('#login-btn').ready(function () {
+    $('#login-btn').click(function () {
         $.ajax({
             url: "",    //TODO
             async: true,
@@ -9,6 +9,6 @@ $(document).ready(function () {
             success: function(data) {
                 //TODO
             }
-        })
+        });
     });
 });
